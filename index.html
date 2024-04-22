@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try somethig new!!</title>
+    <style>
+        body {
+            background-color: #f5f5f5; /* 薄いグレーの背景色を指定 */
+        }
+        /* ナビゲーションメニューを横並びにする */
+        .navigation {
+            display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+            padding: 0;
+            margin: 0; /* マージンをリセット */
+        }
+        .group {
+            display: flex; /* フレキシブルなボックスレイアウト */
+            flex-direction: column; /* アイテムを縦に並べる */
+            margin-right: 20px; /* グループ間の右余白 */
+        }
+        .button {
+            margin-bottom: 10px; /* ボタン間の余白 */
+            padding: 10px 20px; /* ボタンの内側の余白 */
+            text-decoration: none; /* 下線を消す */
+            color: black; /* 文字色を黒に変更 */
+            background-color: #647AA3; /* ボタンの背景色を薄い紺色に変更 */
+            border: 2px solid black; /* 黒い枠線を追加 */
+            border-radius: 5px; /* 角の丸み */
+            transition: background-color 0.3s; /* 背景色の変化を滑らかに */
+            text-align: center; /* テキストを中央に配置 */
+            display: block; /* ブロックレベル要素として扱い */
+        }
+        .button:hover {
+            background-color: #536892; /* ホバー時の背景色を少し暗い紺色に変更 */
+        }
+    </style>
+</head>
+<body>
+    <h1>Try somethig new!!</h1>
+    <ul class="navigation">
+        <!-- 数学グループ -->
+        <li class="group">
+            <a class="button" href="math1A.html">数学IA</a>
+            <a class="button" href="math2B.html">数学IIB</a>
+            <a class="button" href="math3C.html">数学IIIC</a>
+        </li>
+        <!-- 化学グループ -->
+        <li class="group">
+            <a class="button" href="something1.html">計算化学</a>
+            <a class="button" href="knowledge_chemistry.html">知識化学</a>
+        </li>
+        <!-- 物理グループ -->
+        <li class="group">
+            <a class="button" href="physics.html">物理</a>
+            <a class="button" href="physics_math.html">物理数学</a>
+        </li>
+        <!-- 英語グループ -->
+        <li class="group">
+            <a class="button" href="english.html">英語</a>
+        </li>
+        <!-- コラムグループ -->
+        <li class="group">
+            <a class="button" href="column.html">コラム</a>
+        </li>
+        <!-- 工作グループ -->
+        <li class="group">
+            <a class="button" href="crafts.html">工作</a>
+        </li>
+    </ul>
+</body>
+</html>
