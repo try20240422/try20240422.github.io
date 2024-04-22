@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数学ⅠAの部屋</title>
+    <style>
+        body {
+            background-color: #f5f5f5; /* 背景色を薄いグレーに設定 */
+        }
+        .content {
+            display: flex; /* フレキシブルなボックスレイアウト */
+            flex-direction: column; /* アイテムを縦に並べる */
+            padding: 20px; /* 内側に余白を設定 */
+            max-width: 600px; /* 最大幅を設定 */
+            margin: auto; /* 中央寄せ */
+        }
+        .link {
+            text-decoration: underline; /* 下線をつける */
+            color: black; /* リンクの色を黒に */
+            margin-bottom: 10px; /* 項目間の余白 */
+            font-size: 18px; /* 文字サイズ */
+            padding: 5px; /* パディングを設定 */
+        }
+        .link:hover {
+            background-color: #e0e0e0; /* ホバー時の背景色を設定 */
+        }
+    </style>
+</head>
+<body>
+    <h1>数学ⅠAの部屋</h1>
+    <div class="content">
+        <a href="https://example.com/text_and_formula" class="link">文字と式</a>
+        <a href="https://example.com/trigonometry_and_functions" class="link">三角比と三角関数</a>
+        <a href="https://example.com/sequence1" class="link">数列1</a>
+        <a href="https://example.com/sequence2" class="link">数列2</a>
+	<a href="math_menelaus.pdf" class="link">メネラウスとチェバ</a>
+    </div>
+</body>
+</html>
